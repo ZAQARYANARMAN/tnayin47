@@ -1,0 +1,77 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  width: 100%;
+  background-color: rgb(0, 136, 25);
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 25px 0 0 0;
+  position: relative;
+}
+.container .registrationDiv {
+  width: 25%;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: rgb(17, 255, 0);
+  padding: 15px 20px;
+  gap: 5px;
+}
+.container .registrationDiv .officeTitle {
+  width: 100%;
+  color: snow;
+  font-size: 25px;
+  text-align: center;
+  margin: 0 0 15px 0;
+}
+.container .registrationDiv .name, .container .registrationDiv .lastName {
+  width: 49%;
+  font-size: 15px;
+  padding: 9px 11px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.container .registrationDiv .email, .container .registrationDiv .password {
+  width: 100%;
+  font-size: 15px;
+  margin: 10px 0 0 0;
+  padding: 9px 11px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.container .registrationDiv .registracia {
+  width: 200px;
+  color: snow;
+  background-color: rgb(81, 206, 49);
+  font-size: 20px;
+  margin: 25px auto 0 auto;
+  padding: 10px 0;
+  border-radius: 20px;
+  border: none;
+}
+.container .registrationDiv .registracia:hover {
+  background-color: green;
+}
+.container .warnErorDiv {
+  width: 500px;
+  position: absolute;
+  padding: 0 5px;
+  right: 0;
+  bottom: 0;
+  border: 5px solid rgb(156, 249, 159);
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.container .warnErorDiv .warnErorText {
+  font-size: 19px;
+  color: rgb(156, 249, 159);
+}
+
+/*# sourceMappingURL=xstyle.css.map */
